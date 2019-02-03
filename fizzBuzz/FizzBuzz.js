@@ -26,7 +26,7 @@ function fizzBuzz(num) {
         }else if(num % 10 == 5 || parseInt(num / 10 ) == 5){
             answer = `Buzz`;
         }else{
-            answer = num
+            answer = String(num)
         }
     
     return answer ;
